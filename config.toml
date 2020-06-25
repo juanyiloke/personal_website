@@ -1,7 +1,7 @@
 baseURL = "http://localhost:1313/"
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "The J Is Not Silent"
+title = "Hello! I'm Juan Yi. | the J is not silent"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
@@ -29,20 +29,16 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "Home"
+  name = "home"
   weight = 10
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "Directory"
+  name = "directory"
   weight = 20
   identifier = "directory"
   url = "/directory/"
-[[menu.main]]
-  name = "About"
-  weight = 30
-  identifier = "about"
-  url = "/about/"
+
 
 [params]
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
@@ -54,9 +50,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   gitRepo = ""
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Juan Yi Loke"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "the J is not silent"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["Hugo", "theme","even"]
-  description = "Where I write stuff I'm mostly interested in."
+  description = "Where I write stuff I'm interested in."
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
   archivePaginate = 10
